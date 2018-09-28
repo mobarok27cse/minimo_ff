@@ -1,0 +1,244 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Playfair Display', serif;
+}
+/*common part start*/
+.common_text{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+.common_heading{
+    font-size: 30px;
+    color: #626262;
+    line-height: 35px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    font-weight: normal;
+}
+.common_paragraph{
+    font-size: 16px;
+    color: #626262;
+    font-weight: normal;
+    line-height: 24px;
+}
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.wrapper1{
+	overflow: hidden;
+	width: 80%;
+	margin: 0 auto;
+}
+/*common part end*/
+/*header start*/
+header{
+}
+
+.logo{
+	width: 15%;
+	float: left;
+}
+.logo h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 75px;
+    display: block;
+    margin-bottom: 75px;
+    font-family: 'Inconsolata', monospace;
+    color: #000000;
+}
+.menu{
+	width: 75%;
+	float: right;
+}
+.menu ul{
+	list-style: none;
+	float: right;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    display: block;
+    margin: 75px 40px;
+    color: #626262;
+    transition: .5s;
+}
+.menu ul li a:hover{
+	color: #48A5CF;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+/*header end*/
+/*banner start*/
+.banner{}
+.banner img{
+    width: 100%;
+}
+/*banner end*/
+/*content start*/
+.content_text{
+    margin: 100px 0;
+}
+/*content end*/
+/*service start*/
+.service{
+    padding: 30px 0;
+    margin-bottom: 85px;
+}
+.single_service_left{
+    width: 47%;
+    float: left;
+}
+.single_service_right{
+    width: 47%;
+    float: right;
+}
+.single_service_left img{
+    width: 100%;
+}
+.single_service_right img{
+    width: 100%;}
+.service1{
+    padding: 30px 0;
+    margin-bottom: 85px;
+}
+/*service-end*/
+/*signup start*/
+.signup_form{
+	background-color: #f0f0f0;
+    padding: 75px 0;
+}
+.form_contant{
+    position: relative;
+    width: 590px;
+    margin: 0 auto;
+    text-align: center;
+}
+.form_contant h1{
+    font-size: 30px;
+    color: #333333;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+.form_contant input{
+    width: 328px;
+    background: transparent;
+    border: navajowhite;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 14px;
+    font-size: 14px;
+    color: #626262;
+    padding-left: 5px;
+    padding-right: 40px;
+}
+.form_contant button{
+    border: none;
+    background: transparent;
+    width: 32px;
+    position: absolute;
+    bottom: 12px;
+    right: 109px;
+    cursor: pointer;
+}
+
+/*signup end*/
+/*service2 start*/
+.service2{
+    padding: 30px 0;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+/*service2-end*/
+/*button start*/
+.btn{
+	margin-bottom: 1100px;
+    text-align: center;
+}
+.btn button{
+    font-family: 'Playfair Display', serif;
+    padding: 18px 26px;
+    font-size: 20px;
+    color: #626262;
+    border: 1px solid #626262;
+    font-weight: 400;
+    margin-top: 165px;
+    background: transparent;
+    cursor: pointer;
+}
+/*button end*/
+/*footer-start*/
+footer{
+	background-color: #f0f0f0;
+    padding: 40px 0;
+    overflow: hidden;
+}
+.footer_left{
+    width: 40%;
+    float: left;
+    margin-left: 6%;
+}
+.footer_left ul{
+    list-style: none;
+}
+.footer_left ul li{
+    float: left;
+}
+.footer_left ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+    margin-right: 18px;
+    display: block;
+    font-weight: bold;
+    transition: .5s;
+}
+.footer_left ul li a:hover{
+    color: #48A5CF;
+}
+.footer_right{
+    width: 40%;
+    float: right;
+}
+.footer_right ul{
+    float: right;
+    list-style: none;
+}
+.footer_right ul li{
+    float: left;
+}
+.footer_right ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+    margin-right: 17px;
+    display: block;
+    font-weight: bold;
+    transition: .5s;
+}
+.footer_right ul li a:hover {
+    color: #48A5CF;
+}
+.footer_right ul li:last-child a{
+        margin-right: 0;
+}
+.footer_right ul li a  {
+    color: #000000;
+    font-size: 14px;
+    transition: .5s;
+}
+/*footer-end*/
